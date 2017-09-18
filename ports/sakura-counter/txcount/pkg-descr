@@ -1,0 +1,5 @@
+TEXT COUNTER
+
+テンプレートを変更することでデザインの切り替えも可能なSSI形式のテキストカウンタです。
+総カウンタ数の他、昨日と今日のカウンタ数も同時に表示する事が可能です。
+<p><div align="right"><a href="http://www.kent-web.com/count/txcount.html" target="_blank">KENT WEB - TEXT COUNTER</a></div>

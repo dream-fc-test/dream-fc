@@ -1,0 +1,27 @@
+%%CGIDIR%%/admin.cgi
+%%CGIDIR%%/data/data.cgi
+%%CGIDIR%%/data/index.html
+%%CGIDIR%%/data/light.dat
+%%CGIDIR%%/data/pastno.dat
+%%CGIDIR%%/data/pwd.cgi
+%%CGIDIR%%/data/tmplog.cgi
+%%CGIDIR%%/data/tmpnum.dat
+%%CGIDIR%%/init.cgi
+%%CGIDIR%%/lib/check.pl
+%%CGIDIR%%/lib/editlog.pl
+%%CGIDIR%%/lib/index.html
+%%CGIDIR%%/lib/pastlog.pl
+%%CGIDIR%%/lib/pastmake.pl
+%%CGIDIR%%/lib/regist.pl
+%%CGIDIR%%/lib/registkey.pl
+%%CGIDIR%%/lib/search.pl
+%%CGIDIR%%/light.cgi
+%%CGIDIR%%/past/0001.cgi
+%%CGIDIR%%/past/index.html
+%%CGIDIR%%/registkey.cgi
+%%CGIDIR%%/tmp/index.html
+@dirrm %%CGIDIR%%/data
+@dirrm %%CGIDIR%%/lib
+@dirrm %%CGIDIR%%/past
+@dirrm %%CGIDIR%%/tmp
+@dirrm %%CGIDIR%%

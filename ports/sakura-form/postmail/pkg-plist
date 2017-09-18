@@ -1,0 +1,38 @@
+%%CGIDIR%%/check.cgi
+%%CGIDIR%%/data/.htaccess
+%%CGIDIR%%/data/index.html
+%%CGIDIR%%/data/log.cgi
+%%CGIDIR%%/init.cgi
+%%CGIDIR%%/lib/.htaccess
+%%CGIDIR%%/lib/CGI/Minimal.pm
+%%CGIDIR%%/lib/CGI/Minimal.pod
+%%CGIDIR%%/lib/CGI/Minimal/Misc.pm
+%%CGIDIR%%/lib/CGI/Minimal/Multipart.pm
+%%CGIDIR%%/lib/index.html
+%%CGIDIR%%/lib/Jcode.pm
+%%CGIDIR%%/lib/Jcode/_Classic.pm
+%%CGIDIR%%/lib/Jcode/Constants.pm
+%%CGIDIR%%/lib/Jcode/H2Z.pm
+%%CGIDIR%%/lib/Jcode/MIME/Base64.pm
+%%CGIDIR%%/lib/Jcode/Nihongo.pod
+%%CGIDIR%%/lib/Jcode/Tr.pm
+%%CGIDIR%%/lib/Jcode/Unicode/Constants.pm
+%%CGIDIR%%/lib/Jcode/Unicode/NoXS.pm
+%%CGIDIR%%/postmail.cgi
+%%CGIDIR%%/postmail.html
+%%CGIDIR%%/tmpl/.htaccess
+%%CGIDIR%%/tmpl/conf.html
+%%CGIDIR%%/tmpl/err1.html
+%%CGIDIR%%/tmpl/err2.html
+%%CGIDIR%%/tmpl/index.html
+%%CGIDIR%%/tmpl/mail.txt
+%%CGIDIR%%/tmpl/reply.txt
+%%CGIDIR%%/tmpl/thx.html
+@dirrm %%CGIDIR%%/data
+@dirrm %%CGIDIR%%/lib/CGI/Minimal
+@dirrm %%CGIDIR%%/lib/CGI
+@dirrm %%CGIDIR%%/lib/Jcode/Unicode/
+@dirrm %%CGIDIR%%/lib/Jcode
+@dirrm %%CGIDIR%%/lib
+@dirrm %%CGIDIR%%/tmpl
+@dirrm %%CGIDIR%%

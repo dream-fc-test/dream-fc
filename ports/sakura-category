@@ -1,0 +1,7 @@
+ブログ|sakura-blog|wordpress|WordPress といった 人気のあるブログシステムを用意しています。
+CMS|sakura-cms|concrete5,xoops-cube-legacy|concrete5、XOOPS Cube といった 人気のCMS（コンテンツ管理システム）を用意しています。
+EC|sakura-ec|eccube|EC-CUBE といったネットショップ構築ツールを用意しています。
+日記|sakura-diary|tdiary|tDiary といった日記システムを用意しています。
+カウンター|sakura-counter|npc,txcount|ウェブページに設置するカウンターをインストールします。
+メールフォーム|sakura-form|postmail|簡易なメールフォームを設置して利用することができます。
+掲示板(BBS)|sakura-bbs|kakikomitai,lightboard,maruchan,wforum|掲示板を設置して利用することができます。

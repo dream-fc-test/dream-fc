@@ -1,0 +1,7 @@
+Movable Type Open Source
+
+プラグインによる拡張が可能なウェブログシステムです。
+あらかじめ用意されたテンプレートファイルを元にページを自動的に生成し、
+コメント投稿欄やトラックバックなど、ブログに必要とされる機能が標準で搭載されています。
+データベースには MySQL5 を使用しますので、あらかじめ作成する必要があります。
+<p><div align="right"><a href="http://www.movabletype.jp/opensource/" target="_blank">MTOS: Movable Type オープンソース・プロジェクト</a></div>

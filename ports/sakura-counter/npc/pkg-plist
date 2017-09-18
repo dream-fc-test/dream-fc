@@ -1,0 +1,3 @@
+%%CGIDIR%%/index.html
+%%CGIDIR%%/npc.cgi
+@dirrm %%CGIDIR%%

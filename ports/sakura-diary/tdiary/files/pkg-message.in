@@ -1,0 +1,20 @@
+<b>インストール先：</b>%%INDEXDIR%%
+<b>設置URL：</b><a href="http://%%DOMAIN%%/%%CGISUBDIR%%/index.rb" target="_blank">http://%%DOMAIN%%/%%CGISUBDIR%%/index.rb</a>
+<b>設定画面のURL：</b><a href="http://%%DOMAIN%%/%%CGISUBDIR%%/update.rb" target="_blank">http://%%DOMAIN%%/%%CGISUBDIR%%/update.rb</a>
+
+日記を更新するユーザ名は  %%HTUSER%% です。
+
+パスワードを変更する場合は以下のファイルをファイルマネージャで
+編集してください。
+
+<a href="javascript:void(0)" onClick="window.open('fileman?a=pwdedit&pwdfile=/%%CGIROOT%%/.htpasswd', 'FilemanPwdWindow', 'width=500,height=400,scrollbars=yes');">~/%%CGIDIR%%/.htpasswd</a>
+
+利用方法に関する情報は公式で提供されているドキュメントをご覧ください。
+
+<a href="http://www.tdiary.org/20021108.html" target="_blank">tDiary Documents</a>
+
+※ 本機能を利用せずアップデートした場合、実際のプログラムと表示上の
+   バージョンに違いが生じます。
+※ アップデートの前に必ずインストールしたフォルダのバックアップを
+   取得してください。
+※ アップデート時にプラグインの設定は初期化されます。

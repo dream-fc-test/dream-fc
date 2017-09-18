@@ -1,0 +1,539 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>週間スケジュール | DREAM U-12 </title>
+<style>
+@charset "utf-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, 
+fieldset, input, textarea, p, blockquote, th, td{
+    margin: 0; 
+    padding: 0;
+}
+html{
+    overflow-y: scroll;
+}
+h1, h2, h3, h4, h5, h6{
+    font-size: 100%; 
+    font-weight: normal;
+}
+ol, ul{
+    list-style:none;
+}
+fieldset, img{
+     border:0;
+}
+table{
+    border-collapse: collapse; 
+    border-spacing:0;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+}
+caption, th{
+    text-align: left;
+}
+address, caption, cite, code, dfn, em, strong, th, var{
+    font-style: normal;
+    font-weight: normal;
+}
+strong{
+    font-weight: bold;
+}
+strong {
+	color: #F60;
+	font-weight: normal;
+}
+a:focus{
+    outline:none;
+} 
+
+#head {
+	width: 960px;
+	margin-right: auto;
+	margin-bottom: 16px;
+	margin-left: auto;
+	padding-top: 15px;
+}
+#topimg {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+}
+#main {
+	width: 960px;
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-left: auto;
+}
+#foot {
+	background-color: #069;
+	color: #FFF;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+#head_top {
+	background-color: #069;
+}
+body,td,th {
+	font-family: メイリオ, Meiryo, Osaka, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+	font-size: 13px;
+	color: #333;
+}
+#head_top_in {
+	color: #FFF;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+#head_left {
+	float: left;
+	width: 310px;
+}
+#head_right {
+	float: left;
+	width: 350px;
+	font-size: 12px;
+	padding-top: 3px;
+}
+.katudo {
+	color: #F36;
+}
+.both {
+	clear: both;
+}
+#left {
+	float: left;
+	width: 200px;
+	margin-right: 30px;
+}
+#center {
+	float: left;
+	width: 500px;
+	margin-right: 30px;
+}
+#right {
+}
+#right {
+	float: left;
+	width: 200px;
+}
+#left ul li {
+	background-image: url(img/menu_li.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+#left ul li a:hover {
+	background-image: url(img/menu_li_a.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+#left ul li .input {
+	padding-left: 45px;
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 16px;
+}
+a:link {
+	color: #069;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #069;
+}
+a:hover {
+	text-decoration: none;
+	color: #0CF;
+}
+a:active {
+	text-decoration: none;
+	color: #900;
+}
+.con1 {
+	margin-bottom: 20px;
+}
+h2 {
+	font-size: 15px;
+	color: #FFF;
+	background-color: #336699;
+	padding-top: 7px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+.border {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #999;
+	border-bottom-color: #999;
+	border-left-color: #999;
+}
+.con_in {
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	padding-top: 15px;
+}
+h3 {
+	font-size: 14px;
+	color: #F60;
+}
+.info_p {
+	margin-bottom: 10px;
+	display: block;
+}
+#right h2 {
+	font-size: 14px;
+	background-color: #FFF;
+	background-image: url(img/h2_r.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	color: #333;
+	margin-top: 15px;
+	padding-left: 10px;
+}
+#right .con1 {
+	margin-bottom: 15px;
+	-webkit-box-shadow: 0 10px 8px -6px #8d8c8c;
+
+    -moz-box-shadow: 0 10px 8px -6px #8d8c8c;
+
+     box-shadow: 0 10px 8px -6px #8d8c8c;
+}
+#right .con1 .border {
+	border: 1px solid #999;
+}
+#right .con1 .border .con_in {
+	margin: 10px;
+	padding-top: 0px;
+}
+.bg1 {
+	background-image: url(img/bg1.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#left p {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.head_center {
+	float: left;
+	margin-left: 120px;
+	width: 180px;
+	font-size: 12px;
+	padding-top: 3px;
+}
+.pic_center {
+	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+td{
+	padding:5px 5px 5px 10px;
+}
+.midasi{
+	background-color:#0BB;
+	color:#FFF;
+}
+.midasi2{
+	background-color:#09F;
+	color:#FFF;
+}
+.midasi3{
+	background-color:#517CFF;
+	color:#FFF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #CCC;
+}
+</style>
+</head>
+
+<body>
+<div id="head">
+  <div id="head_left">
+    <p><a href="index.html"><img src="img/logo.png" width="277" height="60" /></a></p>
+  </div>
+  <div class="head_center">
+    <p class="katudo">【連絡先】</p>
+    <p>TEL:090-9610-2588<br />
+      FAX:072-724-2720</p>
+    </div>
+  <div id="head_right">
+    <p class="katudo">【活動場所】</p>
+    <p>箕面市立中小学校　箕面市立第2中学校　  箕面市立第5中学校<br />
+    西脇グランド　杉谷公園　豊中市立第14中学校</p>
+  </div>
+  <p class="both"></p>
+</div>
+<table width="888" bordercolor="#CCCCCC" border="1" cellspacing="2" cellpadding="3">
+  <tr>
+    <td width="85" align="center" class="midasi2">曜日</td>
+    <td width="106" align="center" class="midasi">時間</td>
+    <td width="130" align="center" class="midasi">場所</td>
+    <td width="59" align="center" class="midasi">幼</td>
+    <td width="59" align="center" class="midasi">1年</td>
+    <td width="59" align="center" class="midasi">2年</td>
+    <td width="59" align="center" class="midasi">3年</td>
+    <td width="59" align="center" class="midasi">4年</td>
+    <td width="59" align="center" class="midasi">5年</td>
+    <td width="59" align="center" class="midasi">6年</td>
+    <td width="59" align="center" class="midasi">Jr.Y</td>
+  </tr>
+  <tr>
+    <td rowspan="4" align="center" class="midasi3">月</td>
+    <td>16:00～18:00</td>
+    <td>杉谷公園</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>16:00～18:00</td>
+    <td>西脇グランド</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>19:00～21:00</td>
+    <td>箕面2中体育館</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">★</td>
+    <td align="center">★</td>
+    <td align="center">★</td>
+    <td align="center">○</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+
+  </tr>
+  <tr>
+    <td>19:00～21:00</td>
+    <td>豊中14中グランド</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+
+  </tr>
+
+  <tr>
+  	<td align="center" class="midasi3">火</td>
+    <td>19:00～21:00</td>
+    <td>箕面2中体育館</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">★</td>
+    <td align="center">★</td>
+    <td align="center">★</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+
+  </tr>
+  <tr>
+    <td rowspan="2" align="center" class="midasi3">水</td>
+    <td>16:00～18:00</td>
+    <td>西脇グランド</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>19:00～21:00</td>
+    <td>箕面5中体育館</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+
+    <td align="center">★</td>
+    <td align="center">★</td>
+    <td align="center">★</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+  </tr>
+ 
+  <tr>
+  　<td align="center" class="midasi3">木</td>
+    <td>19:00～21:00</td>
+    <td>箕面2中体育館</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+  </tr>
+  <tr>
+    <td rowspan="3" align="center" class="midasi3">金</td>
+    <td>16:00～18:00</td>
+    <td>杉谷公園</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>16:00～18:00</td>
+    <td>西脇グランド</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+
+  </tr>
+  <tr>
+    <td>19:00～21:00</td>
+    <td>豊中14中グランド</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+  
+  </tr>
+  <tr>
+    <td rowspan="2" align="center" class="midasi3">土第1・第3</td>
+    <td>9:00～11:00</td>
+    <td>箕面中小学校</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>9:00～13:00</td>
+    <td>箕面中小学校</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+
+  </tr>
+  <tr>
+    <td align="center" class="midasi3">土 第2</td>
+    <td>16:00～18:00</td>
+    <td>西脇グランド</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center" class="midasi3">土 第4・5</td>
+    <td>13:00～15:00</td>
+    <td>箕面中小学校</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>13:00～18:00</td>
+    <td>箕面中小学校</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+
+  </tr>
+  <tr>
+    <td rowspan="2" align="center" class="midasi3">日</td>
+    <td>13:30～15:30</td>
+    <td>箕面中小学校</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>13:30～18:30</td>
+    <td>箕面中小学校</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+    <td align="center">○</td>
+  </tr>
+</table>
+</body>
+</html>

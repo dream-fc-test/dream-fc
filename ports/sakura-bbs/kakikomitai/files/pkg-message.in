@@ -1,0 +1,18 @@
+<b>インストール先：</b>%%INDEXDIR%%
+<b>設置URL：</b><a href="http://%%DOMAIN%%/%%CGISUBDIR%%/kakikomitai.cgi" target="_blank">http://%%DOMAIN%%/%%CGISUBDIR%%/kakikomitai.cgi</a>
+
+書き込み隊のより詳細なセットアップを行うには次のファイルを編集する
+必要があります。ファイルマネージャを使って編集してください。
+
+<a href="javascript:void(0)" onClick="window.open('fileman?a=edit&file=%%CGIROOT%%/kakikomitai.cgi', 'editer', 'width=620,height=500');">~/%%CGIDIR%%/kakikomitai.cgi</a>
+
+利用方法に関する情報は公式で提供されているドキュメントをご覧ください。
+
+<a href="http://tackysroom.com/cgi/cgi_kakikomitai.htm" target="_blank">Tacky's Room - 書き込み隊</a>
+
+※ 本機能を利用せずアップデートした場合、実際のプログラムと表示上の
+   バージョンに違いが生じます。
+※ アップデートの前に必ずインストールしたフォルダのバックアップを
+   取得してください。
+※ アンインストールを実行した場合、インストール先フォルダ以下の
+   ファイルは全削除されます。

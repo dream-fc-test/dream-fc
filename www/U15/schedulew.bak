@@ -1,0 +1,179 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="GENERATOR" content="JustSystems Homepage Builder Version 16.0.7.0 for Windows">
+<title>練習日程</title>
+<link rel="stylesheet" href="hpbparts.css" type="text/css" id="hpbparts">
+<link rel="stylesheet" href="container_1Ed_2c_left.css" type="text/css" id="hpbcontainer">
+<link rel="stylesheet" href="main_1Ed_2c.css" type="text/css" id="hpbmain">
+<link rel="stylesheet" href="user.css" type="text/css" id="hpbuser">
+<script src="http://js.api.olp.yahooapis.jp/OpenLocalPlatform/V1/jsapi?appid=qr4pV1mxg66VijzBEr7NQX_NCNYhokJ4Z0eBjECXSVKaxevQ6MrKy_f.KhYYY4_XEdQ-" charset="UTF-8" type="text/javascript"></script>
+<script src="hpbmapscript5.js" charset="UTF-8" type="text/javascript">HPBMAP_20121031114805</script>
+<script type="text/javascript">
+
+<!--
+var map;
+function hpbmapinit() {
+	map=hpbmaponload();
+}
+//-->
+</script></head>
+<body id="hpb-template-01-05d-02" class="hpb-layoutset-02" onload="hpbmapinit();">
+<div id="hpb-skip"><a href="#hpb-title">本文へスキップ</a></div>
+<!-- container -->
+<div id="hpb-container">
+  <!-- header -->
+  <div id="hpb-header">
+    <div id="hpb-headerMain">
+      <h1>DREAMはテクニックのマスターを最優先に考える個人育成主義のチームです。</h1>
+    </div>
+    <div id="hpb-headerLogo"><a href="index.html">DREAM</a></div>
+    <div id="hpb-headerExtra1"><span><br>
+    <br>
+    </span></div>
+  </div>
+  <!-- header end --><!-- inner -->
+  <div id="hpb-inner">
+    <!-- wrapper -->
+    <div id="hpb-wrapper">
+      <!-- page title -->
+      <div id="hpb-title">
+        <h2><span class="ja">練習日・場所</span><span class="en">TRAINING</span></h2>
+      </div>
+      <!-- page title end --><!-- main -->
+      <div id="hpb-main">
+        <div class="hpb-parts-cnt-01 hpb-parts-cnt-style clearfix">
+          <h3>練習日・場所</h3>
+          <div class="hpb-parts-cbox-01 hpb-parts-cbox-style clearfix">
+            <table border="1" width="648">
+              <tbody>
+                <tr>
+                  <td bgcolor="#f4eea6" style="text-align : center;" align="center" width="101">曜日</td>
+                  <td bgcolor="#f4eea6" style="text-align : center;" align="center" width="105">時間</td>
+                  <td bgcolor="#f4eea6" style="text-align : center;" align="center" width="168">&nbsp;場所</td>
+                  <td bgcolor="#f4eea6" style="text-align : center;" align="center" width="164">備考&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="101">月&nbsp;</td>
+                  <td width="105">19：00～21：00</td>
+                  <td width="168">豊中市立第14中学校（G）</td>
+                  <td width="164">&nbsp;雨天時は箕面2中（体育館）</td>
+                </tr>
+                <tr>
+                  <td width="101">火&nbsp;</td>
+                  <td width="105">19：00～21：00</td>
+                  <td width="168">箕面市立第2中学校（体育館）</td>
+                  <td width="164">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="101">水</td>
+                  <td width="105">19：00～21：00</td>
+                  <td width="168">箕面市立第5中学校（体育館）</td>
+                  <td width="164">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="101">木&nbsp;</td>
+                  <td width="105">19：00～21：00</td>
+                  <td width="168">箕面市立第2中学校（体育館）</td>
+                  <td width="164">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="101">金</td>
+                  <td width="105">19：00～21：00</td>
+                  <td width="168">豊中市立第14中学校（G）</td>
+                  <td width="164">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="101">土（第1・第３）</td>
+                  <td width="105">&nbsp;9：00～13：00</td>
+                  <td width="168">箕面市立中小学校&nbsp;（G）</td>
+                  <td width="164">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="101">土（第2）</td>
+                  <td width="105">16：00～18：00</td>
+                  <td width="168">西脇公園（G）</td>
+                  <td width="164">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="101">土（&nbsp;第4.・5）</td>
+                  <td width="105">13：00～18：00</td>
+                  <td width="168">箕面市立中小学校（G）</td>
+                  <td width="164">&nbsp;</td>
+                </tr>
+              </tbody>
+            </table>
+            ★日程は変更になることもありますので、月間スケジュールでの確認をお願いします。<br>
+            ★土日は試合の予定が入ります。<br>
+            <br>
+            ＜周辺地図＞<br>
+            <div name="HPBMAP" id="HPBMAP_20121031114805" style="width : 647px; height : 503px;"></div>
+            <br>
+            <br>
+            <b>箕面市立中小学校</b>：駐車場有<br>
+            <br>
+            <b>箕面市立第2中学校</b>：駐車場有<br>
+            <br>
+            <b>箕面市立第5中学校</b>：駐車場有<br>
+            <br>
+            <b>箕面市立第14中学校</b>：駐車場有<br>
+            <br>
+            <b>西脇G</b>：駐車場無し→<br>
+            <br>
+            <b>杉谷公園</b>：駐車場無し→近くにコインパーキング有。<br>
+            <br>
+            <a href="saito.html" target="_blank"><b>彩都西公園</b></a>：駐車場無し→駅前の有料パーキングをご利用下さい。<br>
+            <br>
+            <font color="#ff0000">★路上駐車は厳禁です。気持ちよく活動を続けることが出来る様にご協力をお願いします。<br>
+            ★自転車で来られる方は、駐輪についても歩行者や自動車の迷惑にならない様お気を付け下さい。</font><br>
+          </div>
+          <div class="hpb-parts-cbox-01 hpb-parts-cbox-style clearfix"></div>
+          <div id="pagetop"><a href="#hpb-container">このページの先頭へ</a></div>
+        </div>
+      </div>
+      <!-- main end -->
+    </div>
+    <!-- wrapper end --><!-- navi -->
+    <div id="hpb-nav">
+      <h3 class="hpb-c-index">ナビゲーション</h3>
+      <ul>
+        <li id="nav-toppage"><a href="index.html"><span class="ja"><b>トップページ</b></span><span class="en">TOP&nbsp;PAGE</span></a>
+        <li id="nav-service"><a href="service.html"><b><span class="ja">クラブ紹介</span></b><span class="en">PROFILE</span></a>
+        <li id="nav-contact"><b><a href="schedulew.html"><span class="ja">練習日・練習場所</span><span class="en">schedulew</span></a></b>
+        <li id="nav-contact"><b><a href="infomation.html"><span class="ja">入会のご案内</span><span class="en">CONTACT&nbsp;US</span></a></b>
+        <li id="nav-contact"><a href="contact.html"><b><span class="ja">お問い合わせ</span></b><span class="en">CONTACT&nbsp;US</span></a>
+        <li id="nav-contact"><b><a href="http://sports.geocities.jp/dreamfc1999/" target="_blank"><span class="ja">DREAM U-</span>12<span class="en">CONTACT&nbsp;US</span></a></b>
+        <li id="nav-contact"><b><a href="link.html"><span class="ja">リンク</span><span class="en">LINK</span></a></b>
+      </ul>
+    </div>
+    <!-- navi end --><!-- aside -->
+    <div id="hpb-aside">
+      <h3 class="hpb-c-index">バナースペース</h3>
+      <div id="banner">
+        <ul>
+          <li><a href="schedule.html" id="banner-service">DREAMスケジュール</a>
+          <li><a href="http://blogs.yahoo.co.jp/dreamfcjy" id="banner-recruit" target="_blank">ブログ</a>
+          <li><a href="animation.html" id="banner-access" style="background-image : url(banner_1Ed_031.png);">動画</a>
+        </ul>
+      </div>
+      <div id="companyinfo">
+        <h3>DREAM<br>
+        </h3>
+        <p>TEL: 090-9610-2588<br>
+        FAX:072-724-2720</p>
+      </div>
+    </div>
+    <!-- aside end -->
+  </div>
+  <!-- inner end --><!-- footer -->
+  <div id="hpb-footer">
+    <div id="hpb-footerMain"></div>
+    <div id="hpb-footerExtra1"></div>
+  </div>
+  <!-- footer end -->
+</div>
+<!-- container end --></body>
+</html>

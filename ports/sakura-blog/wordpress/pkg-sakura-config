@@ -1,0 +1,7 @@
+SETUPURL|ctrl|wp-admin/install.php|
+USE_MYSQL|ctrl|5.0|
+LICENSE|ctrl|GPLv2|
+SAKURADUP|ctrl||
+CGISUBDIR|dir|must=y|
+DBPREFIX|char|must=y,noup=y,rand=y,def=wp|テーブルの接頭語を入力してください
+UPDATE|ctrl|1|

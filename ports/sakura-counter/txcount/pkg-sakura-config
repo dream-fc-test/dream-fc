@@ -1,0 +1,6 @@
+SAKURADUP|ctrl||
+CGISUBDIR|dir|must=y||
+DIGIT|num|def=6,must=y|桁数を指定してください<br />0が指定されると桁数指定無しになります
+DIVIDE|radio|def=0,must=y,val[0]=しない,val[1]=する|カウンターの桁数を三桁ずつで区切るか指定してください<br />この指定はカウンタ値が4桁以上の時に意味を持ちます
+IP_CHECK|radio|def=0,must=y,val[0]=しない,val[1]=する|IPアドレスをチェックし、連続カウントを防止するか選択してください
+UPDATE|ctrl|1|

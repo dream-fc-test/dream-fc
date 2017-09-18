@@ -1,0 +1,8 @@
+SAKURADUP|ctrl||
+CGISUBDIR|dir|must=y|
+MAILTO|char|must=y|送信先メールアドレスを指定してください
+MAXFIELD|num|def=102400,maxval=1024000,minval=1|入力フォームの最大バイト数を指定してください
+SUBJECT|char|charset=SJIS,def=フォームメール|メールの題名を入力してください
+BACKURL|char|def=/|送信後の戻り先URLを入力してください
+BLOCKPOST|num|def=60|同一IPアドレスからの連続送信を許可する間隔(秒数)を指定してください
+UPDATE|ctrl|1|

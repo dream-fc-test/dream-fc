@@ -1,0 +1,20 @@
+SAKURADUP|ctrl||
+CGISUBDIR|dir|must=y|
+TITLE|char|def=Web Forum|掲示板のタイトル名を指定してください
+PASSWD|pass|must=y,def=0123|管理者用パスワードを指定してください<br>（省略された時は0123です）
+MAXARC|num|def=200,minval=1,maxval=200|最大記事数を指定してください
+HOMEURL|char|must=y,def=../index.html|戻り先のURLを指定してください
+AUTOLINK|radio|def=1,val[0]=使用しない,val[1]=使用する|URL自動リンクを行うか指定してください
+NEW_TIME|num|def=24|記事にNEWマークを付けている時間を指定してください
+SORTCNT|num|def=10,minval=1,maxval=50|新着記事一括表示の記事数を指定してください
+P_TREE|num|def=10,minval=1,maxval=50|ページあたりのツリーをいくつ表示するか指定してください
+SUB_LENGTH|num|def=30,minval=1,maxval=80|リストに表示する「記事タイトル」の最大長を指定してください
+TOP_SORT|radio|def=1,val[0]=移動しない,val[1]=移動する|レスが付いたらツリーごとトップへ移動するか選んでください
+BOT_RES|radio|def=1,val[0]=いいえ,val[1]=はい|レスは下から順に付けるか選んでください
+TREEHEAD|char|def=▼,must=y|ツリーのヘッダ記号を指定してください
+PASTKEY|radio|def=0,val[0]=使用しない,val[1]=使用する|過去ログ機能を使うか選んでください
+MAX_LINE|num|must=y,def=650,maxval=1000,minval=1|過去ログの1ページ辺りの最大行数を指定してください
+JP_WD|radio|def=0,val[0]=いいえ,val[1]=はい|投稿時日本語が含まれていなければ拒否するかを指定してください
+REGCTL|radio|must=y,def=0,val[0]=しない,val[1]=同一IPアドレスからの<br />投稿を制限,val[2]=全ての投稿を制限|投稿制限
+WAITTIME|num|must=y,def=60|投稿を制限する秒数を設定してください
+UPDATE|ctrl|1|

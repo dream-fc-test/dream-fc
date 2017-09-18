@@ -1,0 +1,13 @@
+SAKURADUP|ctrl||
+CGISUBDIR|dir|must=y|
+BBSSELECT|char|def=掲示板|作成する掲示板を指定してください
+LOGFILE2|radio|def=./maruchan_cnt.txt,val[./maruchan_cnt.txt]=使う,val[ ]=使わない|昇進機能を使うかを選んでください
+DATAMAX|num|def=200,maxval=500,minval=1,must=y|最大データ保存件数を指定してください
+PAGEMAX|num|def=2,maxval=100,minval=1,must=y|1ページ内に表示する件数を指定してください
+PASSWORD|pass|def=pass,must=y|管理者のメンテナンス用パスワードを指定してください<br />（省略された時はpassです）
+TAG|radio|def=no,val[no]=許可しない,val[yes]=許可する|タグの使用を許可するか選んでください。
+RESFLAG|radio|def=yes,val[yes]=先頭に表示する,val[no]=先頭に表示しない|最新レスを先頭に表示するかを選んでください
+AGENTFLAG|radio|def=no,val[no]=表示しない,val[yes]=表示する|投稿者の使用ブラウザ・OSを表示するか選んでください
+HOSTFLAG|radio|def=no,val[no]=表示しない,val[yes]=表示する|投稿者のリモートホストを表示するか選んでください
+BUTTONFLAG|radio|def=2,val[1]=プルダウンリスト,val[2]=ボタン,val[3]=アイコン,val[4]=外部から指定|掲示板の選択方法を選んでください
+UPDATE|ctrl|1|

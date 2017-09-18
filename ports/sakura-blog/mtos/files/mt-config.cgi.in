@@ -1,0 +1,11 @@
+CGIPath /%%CGISUBDIR%%/
+StaticWebPath /%%CGISUBDIR%%/mt-static/
+StaticFilePath %%INDEXDIR%%/mt-static
+ObjectDriver DBI::mysql
+Database %%DBNAME%%
+DBUser %%DBUSER%%
+DBPassword %%DBPASS%%
+DBHost %%DBHOST%%
+MailTransfer sendmail
+SendMailPath /usr/sbin/sendmail
+DefaultLanguage ja

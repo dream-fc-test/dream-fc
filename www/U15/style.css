@@ -1,0 +1,33 @@
+.box{
+  background-image : url(image49.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: silver;
+  width: 180px;
+  height: 300px;
+  float: left;
+  overflow: hidden;
+}
+.imgbox{
+  margin-top: 10px;
+}
+.box h6{
+  font-size: 15px;
+  text-align: left;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 0px;
+}
+.box p{
+  font-size: 12px;
+  line-height: 1.5em;
+  text-align: left;
+  margin-left: 1em;
+  margin-right: 1em;
+}

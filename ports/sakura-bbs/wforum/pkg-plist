@@ -1,0 +1,67 @@
+%%CGIDIR%%/bin/tempest.ttf
+%%CGIDIR%%/bin/bq.png
+%%CGIDIR%%/bin/br2.png
+%%CGIDIR%%/bin/br3.png
+%%CGIDIR%%/bin/casual.png
+%%CGIDIR%%/bin/cut.png
+%%CGIDIR%%/bin/japan.png
+%%CGIDIR%%/bin/jump.png
+%%CGIDIR%%/bin/kt012.png
+%%CGIDIR%%/bin/lynz.png
+%%CGIDIR%%/bin/small.png
+%%CGIDIR%%/bin/stamp.png
+%%CGIDIR%%/bin/.htaccess
+%%CGIDIR%%/lib/GD/SecurityImage/GD.pm
+%%CGIDIR%%/lib/GD/SecurityImage/Magick.pm
+%%CGIDIR%%/lib/GD/SecurityImage/Styles.pm
+%%CGIDIR%%/lib/GD/SecurityImage.pm
+%%CGIDIR%%/lib/Jcode/Unicode/Constants.pm
+%%CGIDIR%%/lib/Jcode/Unicode/NoXS.pm
+%%CGIDIR%%/lib/Jcode/MIME/Base64.pm
+%%CGIDIR%%/lib/Jcode/H2Z.pm
+%%CGIDIR%%/lib/Jcode/_Classic.pm
+%%CGIDIR%%/lib/Jcode/Nihongo.pod
+%%CGIDIR%%/lib/Jcode/Tr.pm
+%%CGIDIR%%/lib/Jcode/Constants.pm
+%%CGIDIR%%/lib/Crypt/RC4.pm
+%%CGIDIR%%/lib/index.html
+%%CGIDIR%%/lib/Jcode.pm
+%%CGIDIR%%/lib/.htaccess
+%%CGIDIR%%/lib/pngren.pl
+%%CGIDIR%%/lib/captcha.pl
+%%CGIDIR%%/lib/captsec.pl
+%%CGIDIR%%/past/.htaccess
+%%CGIDIR%%/past/0001.cgi
+%%CGIDIR%%/past/index.html
+%%CGIDIR%%/css/bbs.css
+%%CGIDIR%%/css/index.html
+%%CGIDIR%%/tmpl/relate.html
+%%CGIDIR%%/tmpl/conf.html
+%%CGIDIR%%/tmpl/edit.html
+%%CGIDIR%%/tmpl/error.html
+%%CGIDIR%%/tmpl/find.html
+%%CGIDIR%%/tmpl/finish.html
+%%CGIDIR%%/tmpl/index.html
+%%CGIDIR%%/tmpl/list.html
+%%CGIDIR%%/tmpl/message.html
+%%CGIDIR%%/tmpl/note.html
+%%CGIDIR%%/tmpl/past.html
+%%CGIDIR%%/tmpl/read.html
+%%CGIDIR%%/tmpl/.htaccess
+%%CGIDIR%%/data/.htaccess
+%%CGIDIR%%/data/index.html
+%%CGIDIR%%/data/log.cgi
+%%CGIDIR%%/data/pastno.dat
+%%CGIDIR%%/wforum.cgi
+%%CGIDIR%%/captcha.cgi
+%%CGIDIR%%/check.cgi
+%%CGIDIR%%/init.cgi
+%%CGIDIR%%/regist.cgi
+%%CGIDIR%%/admin.cgi
+@dirrm %%CGIDIR%%/bin
+@dirrm %%CGIDIR%%/lib
+@dirrm %%CGIDIR%%/past
+@dirrm %%CGIDIR%%/css
+@dirrm %%CGIDIR%%/tmpl
+@dirrm %%CGIDIR%%/data
+@dirrm %%CGIDIR%%

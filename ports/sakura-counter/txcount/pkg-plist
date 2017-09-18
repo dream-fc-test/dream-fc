@@ -1,0 +1,4 @@
+%%CGIDIR%%/txcount.cgi
+%%CGIDIR%%/txcount.tmp
+@dirrm %%CGIDIR%%/lock
+@dirrm %%CGIDIR%%

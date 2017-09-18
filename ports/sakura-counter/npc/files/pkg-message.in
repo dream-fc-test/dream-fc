@@ -1,0 +1,25 @@
+<b>インストール先：</b>%%INDEXDIR%%
+<b>設置URL：</b><a href="http://%%DOMAIN%%/%%CGISUBDIR%%/npc.cgi" target="_blank">http://%%DOMAIN%%/%%CGISUBDIR%%/npc.cgi</a>
+
+インストール後の設定変更などを行うには次のファイルを編集する
+必要があります。ファイルマネージャーを使って編集してください。
+
+<a href="javascript:void(0)" onClick="window.open('fileman?a=edit&file=%%CGIROOT%%/npc.idx', 'editer', 'width=620,height=500');">~/%%CGIDIR%%/npc.idx</a>
+
+このCGIを使うには、HTMLファイルなどに次のように埋め込んで使用します。
+
+&lt;img src="/%%CGISUBDIR%%/npc.cgi?L=YourPageLocation"&gt;
+
+"L="以下はカウンタに与える、他と重複しない名前です。
+通常はカウンタを利用しているページのパスを書くと良いでしょう。
+
+利用方法に関する情報は公式で提供されているドキュメントをご覧ください。
+
+<a href="http://www2.biglobe.ne.jp/~nir/npc/" target="_blank">アクセスカウンタ npc.cgi マニュアル</a>
+
+※ 本機能を利用せずアップデートした場合、実際のプログラムと表示上の
+   バージョンに違いが生じます。
+※ アップデートの前に必ずインストールしたフォルダのバックアップを
+   取得してください。
+※ アンインストールを実行した場合、インストール先フォルダ以下の
+   ファイルは全削除されます。

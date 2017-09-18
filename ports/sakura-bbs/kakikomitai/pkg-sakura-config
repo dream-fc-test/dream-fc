@@ -1,0 +1,20 @@
+SAKURADUP|ctrl||
+CGISUBDIR|dir|must=y|
+URL_TARGET|char|def=_top|戻り先のターゲットを指定してください
+TITLE|char|def=+--書き込み隊--+|タイトルを指定してください
+TITLESET|radio|def=1,val[0]=不要,val[1]=必要|新規投稿時にタイトルが必要か選んでください
+TITLESET2|radio|def=1,val[0]=不要,val[1]=必要|レスする際にタイトルが必要か選んでください<br />（新規投稿時にタイトルが必要な場合しか意味ありません）
+DATAMAX|num|def=300,maxval=500,minval=1|最大データ保存件数を指定してください
+PAGEMAX|num|def=20,maxval=50,minval=1|１ページ内に表示する件数を指定してください
+PASSWORD|pass|def=pass|メンテナンス用パスワード(管理者用)を指定してください
+TAG|radio|def=no,val[no]=許可しない,val[yes]=許可する|HTMLのタグを使う事を許可するか指定してください
+HOSTFLAG|radio|def=no,val[no]=表示しない,val[yes]=表示する|書き込んだ人のホスト名を表示するか指定してください
+GIF_FLG|radio|def=0,val[0]=表示しない,val[1]=表示する|入力フォームの見出し部分に画像を表示するか指定してください
+MAXWORD|num|def=1000|メッセージ最大文字数を指定してください<br />指定しない場合は何も指定しないでください
+RESSW|radio|def=2,val[0]=レス無し,val[1]=管理人のみ可能,val[2]=みんなでレス|レス機能を使うか指定してください
+RESFLAG|radio|def=yes,val[yes]=表示する,val[no]=表示しない|最新レスを先頭に表示するか選択してください
+ROW|num|must=y,def=4,minval=2,maxval=20|入力フォームのメッセージ欄の行数を指定してください
+COL|num|must=y,def=50,minval=2,maxval=100|入力フォームのメッセージ欄の文字数を指定してください
+TABL_SZ|num|must=y,def=400,minval=100,maxval=800|ログ表示部のテーブル横幅をピクセルで表示してください
+RENCHAN|num|must=y,def=0,minval=0|エラーとする連続投稿回数を指定してください（0では設定しません）
+UPDATE|ctrl|1|

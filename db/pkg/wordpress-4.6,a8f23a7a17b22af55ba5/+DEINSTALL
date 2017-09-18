@@ -1,0 +1,13 @@
+#!/bin/sh
+
+INDEXDIR="/home/dream-fc/www/u-15"
+if [ -z "${INDEXDIR}" ]; then exit 0; fi
+
+case $2 in
+POST-DEINSTALL)
+	if [ -d "${INDEXDIR}" ]; then
+		rm -fr "${INDEXDIR}" 2>/dev/null || true
+	fi
+	;;
+esac
+exit 0

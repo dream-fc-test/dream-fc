@@ -1,0 +1,6 @@
+%%CGIDIR%%/maruchan.cgi
+%%CGIDIR%%/maruchan1.set
+%%CGIDIR%%/maruchan1.txt
+%%CGIDIR%%/maruchan_cnt.txt
+%%CGIDIR%%/spacer.gif
+@dirrm %%CGIDIR%%

@@ -1,0 +1,8 @@
+SETUPURL|ctrl|mt.cgi|
+USE_MYSQL|ctrl|5.0|
+NOEXIST_TABLE|ctrl|mt_config|
+LICENSE|ctrl|GPLv2|
+SAKURADUP|ctrl||
+PORTEPOCH|ctrl|1|
+CGISUBDIR|dir|must=y|
+UPDATE|ctrl|1|

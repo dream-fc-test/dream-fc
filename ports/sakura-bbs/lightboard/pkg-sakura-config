@@ -1,0 +1,7 @@
+SAKURADUP|ctrl||
+CGISUBDIR|dir|must=y|
+SENDMAILYN|radio|def=yes,val[no]=指定無し,val[yes]=メール通知する|メッセージ投稿があった時に、mail で通知するかを選んでください
+REGISTKEY|radio|def=1,val[0]=無効,val[1]=有効|投稿キーを有効にするかを選んでください（スパム対策）
+PASTKEY|radio|def=0,val[0]=使用しない,val[1]=使用する|過去ログ機能を使うかを選んでください
+PASTMAX|num|def=400,maxval=600,minval=1|過去ログ１ファイルあたりの最大件数を指定してください
+UPDATE|ctrl|1|

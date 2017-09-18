@@ -1,0 +1,656 @@
+@charset "Shift_JIS";
+
+/*--------------------------------------------------------
+  共通レイアウトパーツ設定
+--------------------------------------------------------*/
+/* ヘッダー内パーツ */
+#hpb-headerMain {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 15px;
+    margin-left: 0;
+    height: 22px;
+    overflow: hidden;
+}
+
+#hpb-headerMain h1 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 15px;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+#hpb-headerLogo {
+    width: 493px;
+    float: left;
+    padding-left: 10px;
+}
+
+#hpb-headerLogo a {
+    display: block;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 1px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+    height: 62px;
+    background-image : url(logo_3Dc.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+
+#hpb-headerExtra1 {
+    width: 360px;
+    margin-top: 0;
+    margin-right: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    float: right;
+}
+
+#hpb-headerExtra1 p.tel {
+    /* 電話番号の文字設定 */
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 5px;
+    padding-bottom: 0;
+    padding-left: 0;
+    line-height: 1.2;
+    text-align: right;
+    color: #1F445E;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#hpb-headerExtra1 p.tel span {
+    /* 電話番号の「TEL」文字設定 */
+    display: block;
+    font-size: 0.8em;
+    font-weight: normal;
+    color: #666666;
+    padding-right: 0px;
+    padding-bottom: 5px;
+}
+
+#hpb-headerExtra1 p.address {
+    /* 住所文字設定 */
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    text-align: right;
+    color: #666666;
+}
+
+#hpb-headerExtra2 {
+}
+
+/* フッター内パーツ */
+#hpb-footerMain {
+    width: 900px;
+    height: 24px;
+    background-image : url(footerBg_3Dc.png);
+    background-position: center left;
+    background-repeat: repeat-x;
+}
+
+#hpb-footerMain p {
+    /* コピーライト文字設定 */
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    font-size: 1em;
+    text-align: center;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#hpb-footerLogo {
+}
+
+#hpb-footerExtra1 {
+}
+
+#hpb-footerExtra2 {
+}
+
+/* サイドブロック内パーツ */
+
+/* バナー */
+#banner {
+    overflow: hidden;
+}
+
+#banner ul {
+    margin-top: 9px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#banner li {
+    display: block;
+    width: 205px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+#banner li a {
+    display: block;
+    height: 135px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+#banner a#banner-time {
+    /* 診療時間バナー */
+    background-image : url(banner_3Dc_01.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#banner a#banner-access {
+    /* アクセスバナー */
+    background-image : url(banner_3Dc_02.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+/* 店舗情報 */
+#shopinfo {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#shopinfo h3 {
+    color: #1F445E;
+    font-size: 1.0em;
+    text-align: left;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+#shopinfo span.ja {
+    display: none;
+}
+
+#shopinfo p {
+    padding-top: 0;
+    margin-top: 0.1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.2em;
+    line-height: 1.5;
+}
+
+/*--------------------------------------------------------
+  ナビゲーションデザイン設定
+--------------------------------------------------------*/
+
+#hpb-nav li a {
+    /* ナビゲーション文字設定 */
+}
+
+
+/*--------------------------------------------------------
+  基本パーツデザイン設定
+--------------------------------------------------------*/
+
+/* リンク文字色 */
+a:link {
+    color: #1F445E;
+    text-decoration: underline;
+}
+a:visited {
+    color: #1F445E;
+    text-decoration: underline;
+}
+a:hover {
+    color: #69A3CD;
+    text-decoration: none;
+}
+a:active {
+    color: #69A3CD;
+    text-decoration: none;
+}
+
+#hpb-skip {
+    /* ヘッダースキップの非表示 */
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+p {
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    padding-right: 0.1em;
+    padding-left: 0em;
+    line-height: 1.4;
+    text-align: left;
+}
+
+p.large {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: -0.1em;
+    color: #1F445E;
+}
+p.indent {
+    padding-left: 15px;
+    background-image : url(point_3Dc.png);
+    background-position: 3px 4px;
+    background-repeat: no-repeat;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    clear: both;
+    border-top-width: 1px;
+    border-top-style: none;
+    border-right-width: 1px;
+    border-right-style: none;
+    border-left-width: 1px;
+    border-left-style: none;
+    color: #ffffff;
+    border-bottom-width: 1px;
+    border-bottom-style: none;
+}
+
+
+#hpb-wrapper h3 {
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    font-size: 1.5em;
+    line-height: 18px;
+    text-align: left;
+    color: #1F445E;
+}
+
+#hpb-wrapper h3 span.en {
+    padding-right: 10px;
+    text-transform: capitalize;
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+}
+
+#hpb-wrapper h3 span.ja {
+}
+
+h3.hpb-c-index {
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: none;
+    border-bottom-style: none;
+}
+
+h4 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #1F445E;
+}
+
+h5 {
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 15px;
+    text-align: left;
+    background-image : url(point_3Dc.png);
+    background-position: 3px 7px;
+    background-repeat: no-repeat;
+    font-size: 1.1em;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+table {
+    margin-top: 5px;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-left: 0;
+    border-collapse: collapse;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #38A1A3;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #38A1A3;
+}
+
+table th {
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+    background-color: #57B5CB;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #38A1A3;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #38A1A3;
+    color: #FFFFFF;
+}
+
+table td {
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #38A1A3;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #38A1A3;
+}
+
+/* フォームパーツ設定 */
+input.button {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 380px;
+    height: 200px;
+}
+
+input.l {
+    width: 380px;
+}
+input.m {
+    width: 250px;
+}
+input.s {
+    width: 50px;
+}
+
+
+/* メインコンテンツ内基本パーツ */
+
+#hpb-main ul {
+    clear: left;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#hpb-main ul li {
+    text-align: left;
+    line-height: 1.4;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-bottom: 5px;
+    padding-left: 18px;
+    margin-left: 0px;
+    background-image : url(point_3Dc.png);
+    background-position: 3px 10px;
+    background-repeat: no-repeat;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #1F445E;
+}
+
+
+#hpb-main dl {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+#hpb-main dt {
+    float: left;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    text-align: left;
+    line-height: 1.4;
+    font-weight: normal;
+    width: 9em !important;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-bottom: 2px;
+    padding-left: 15px;
+    background-image : url(point_3Dc.png);
+    background-position: 3px 10px;
+    background-repeat: no-repeat;
+}
+
+#hpb-main dd {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-bottom: 2px;
+    text-align: left;
+    line-height: 1.4;
+    padding-left: 11em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+}
+
+* #hpb-main dd {
+    height: 1%; /* for IE6 */
+}
+
+#hpb-main dl:after {
+    content: ".";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+#hpb-main img.left {
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#hpb-main img.right {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    float: right;
+}
+
+#pagetop {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    text-align: left;
+    padding-left: 5px;
+}
+
+#pagetop a {
+    /* ページの先頭へのリンク設定 */
+    display: block;
+    padding-left: 15px;
+    line-height: 15px;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 20px;
+    background-image : url(point_ret_3Dc.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    overflow: hidden;
+    color: #1F445E;
+    float: right;
+}
+
+
+/* トップページ デザイン定義 */
+#toppage-news {
+    padding-bottom: 5px;
+}
+
+#toppage-news h3 {
+    height: 47px;
+    border-bottom-width: 0px;
+    border-bottom-style: none;
+    margin-bottom: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #38A1A3;
+}
+
+#toppage-news h3 span.en {
+    display: block;
+    float: left;
+    padding-top: 13px;
+    padding-left: 0px;
+    font-size: 27px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #1F445E;
+    font-family: Century, "HG明朝B" , "ＭＳ 明朝" , "MS 明朝" ,HeiseiMincho, 'Hiragino Mincho Pro' , 'MS Mincho' ,serif;
+}
+
+#toppage-news h3 span.ja {
+    display: block;
+    float: left;
+    font-size: 16px;
+    line-height: 47px;
+    padding-top: 5px;
+    color: #1F445E;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#toppage-news h4 {
+    color: #1F445E;
+    padding-top: 3px;
+}
+
+/* 治療方針ページ デザイン定義 */
+#flow {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    zoom: 1;
+}
+
+#flow li {
+    display: block;
+    background-image : url(arrow_3Dc.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-top: 38px;
+    padding-bottom: 15px;
+    padding-left: 150px;
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+* html #flow li {
+    padding-left: 300px; /* for IE6 */
+}
+
+#flow li:first-child {
+    background-image: none;
+    padding-top: 10px;
+}
+
+#flow li h4 {
+    float: left;
+    width: 150px;
+    margin-left: -150px;
+    margin-top: -3px;
+    text-align: center;
+}
+

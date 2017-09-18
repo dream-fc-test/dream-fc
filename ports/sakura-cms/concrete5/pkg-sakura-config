@@ -1,0 +1,7 @@
+SETUPURL|ctrl|index.php|
+USE_MYSQL|ctrl|5.5|
+LICENSE|ctrl|MIT-CONCRETE5|
+SAKURADUP|ctrl||
+CGISUBDIR|dir|must=y|
+DBPREFIX|char|must=y,noup=y,rand=y,def=co|テーブルの接頭語を入力してください
+UPDATE|ctrl|0|

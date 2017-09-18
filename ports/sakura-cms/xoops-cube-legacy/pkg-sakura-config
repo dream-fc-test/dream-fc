@@ -1,0 +1,8 @@
+SETUPURL|ctrl|install|
+USE_MYSQL|ctrl|4.0|
+LICENSE|ctrl|GPLv2|
+SAKURADUP|ctrl||
+CGISUBDIR|dir|must=y|
+DBPREFIX|char|must=y,noup=y,rand=y,def=xc|テーブルの接頭語を入力してください
+DBSALT|hidden|must=y,noup=y,rand=y,def=|
+UPDATE|ctrl|1|

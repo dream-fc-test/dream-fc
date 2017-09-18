@@ -1,0 +1,12 @@
+%%CGIDIR%%/bottom_l_h.gif
+%%CGIDIR%%/bottom_r_h.gif
+%%CGIDIR%%/kakikomitai.cgi
+%%CGIDIR%%/kakikomitai.txt
+%%CGIDIR%%/kakikomitai_linkhome.gif
+%%CGIDIR%%/kakikomitai_linkmail.gif
+%%CGIDIR%%/res.gif
+%%CGIDIR%%/spacer.gif
+%%CGIDIR%%/spacer_b.gif
+%%CGIDIR%%/top_l_h.gif
+%%CGIDIR%%/top_r_h.gif
+@dirrm %%CGIDIR%%

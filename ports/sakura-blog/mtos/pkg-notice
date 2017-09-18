@@ -1,0 +1,7 @@
+<ul>
+ <li>Movable Type Open Source は一つのデータベースに一つのみインストールできます。</li>
+ <li>データベースには MySQL5 を使用しますので、あらかじめ作成する必要があります。</li>
+ <li>インストール先にWebアプリケーションファイアウォールを有効にしたドメインを選択すると、ソフトウェアが正常に動作しない場合があります。
+     あらかじめWebアプリケーションファイアウォールを無効にしてください。
+     詳しくは<a href="http://support.sakura.ad.jp/manual/rs/others/waf.html#ac01" target="_blank">こちら</a>をご確認ください。</li>
+</ul>

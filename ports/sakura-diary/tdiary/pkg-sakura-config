@@ -1,0 +1,8 @@
+LICENSE|ctrl|GPLv2|
+SAKURADUP|ctrl||
+CGISUBDIR|char|must=y|
+HTUSER|char|must=y|日記を更新するユーザ名を指定してください
+PASSWD|pass|must=y|日記を更新するユーザのパスワードを入力してください
+YOURNAME|char|must=y,noup=y,def=Your name|日記に表示する名前を指定してください
+YOURMAIL|char|must=y,noup=y,def=foo@example.net|日記に表示するメールアドレスを指定してください
+UPDATE|ctrl|1|

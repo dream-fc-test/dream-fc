@@ -1,0 +1,417 @@
+@charset "Shift_JIS";
+
+/* 要素リセット */
+body
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 75%;
+    font-family: 'メイリオ' ,Meiryo, 'ヒラギノ角ゴ Pro W3' , 'Hiragino Kaku Gothic Pro' , 'ＭＳ Ｐゴシック' , 'Osaka' ,sans-serif;
+    color: #666666; /* 標準文字色 */
+    background-position: top left;
+    background-repeat: repeat-x;
+    background-image : url(bg_3Dc_01.png);
+    background-position: top center;
+    background-repeat: repeat-y;
+    background-color: #C0D8DF;
+}
+/* Safari用ハック 文字サイズ調整 */
+/*\*/
+html:\66irst-child body
+{
+    font-size: 70%;
+}
+/* end */
+
+img
+{
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+/*--------------------------------------------------------
+  レイアウト設定
+--------------------------------------------------------*/
+#hpb-container
+{
+    width: 900px;
+    background-color: #FFFFFF;
+    margin-top: -1px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    position: relative;
+    padding-bottom: 0;
+    zoom: 1;
+    background-image : url(bg_3Dc_02.png);
+    background-position: top center;
+    background-repeat: repeat-x;
+}
+
+#hpb-header
+{
+    width: 900px;
+    height: 110px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #38A1A3;
+}
+
+#hpb-inner
+{
+    position: relative;
+    width: 900px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hpb-layoutset-02 #hpb-inner
+{
+    position: relative;
+    width: 900px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hpb-inner:after
+{
+    content: ".";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+#hpb-wrapper
+{
+    width: 580px;
+    margin-top: 0;
+    margin-right: 40px;
+    margin-left: 0px;
+    margin-bottom: 0;
+    float: right;
+    min-height: 200px;
+}
+
+* html #hpb-wrapper
+{
+    width: 581px; /* for IE6 */
+    margin-right: 20px;
+    height: 200px;
+}
+
+#hpb-title
+{
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+.hpb-layoutset-01 #hpb-title
+{
+    height: 260px;
+}
+
+.hpb-layoutset-02 #hpb-title
+{
+    padding-top: 10px;
+}
+
+#hpb-main
+{
+    width: 580px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    text-align: left;
+}
+
+.hpb-layoutset-01 #hpb-main
+{
+    padding-top: 0px;
+}
+
+.hpb-layoutset-02 #hpb-main
+{
+    padding-top: 5px;
+}
+
+#hpb-aside
+{
+    width: 235px;
+    margin-top: 20px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+    float: left;
+}
+
+* html #hpb-aside
+{
+    margin-left: 0px;
+}
+
+#hpb-footer
+{
+    width: 900px;
+    clear: both;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#hpb-nav
+{
+    margin-top: -25px;
+    width: 235px;
+    overflow: hidden;
+    float: left;
+}
+
+
+/*--------------------------------------------------------
+  デザイン設定
+--------------------------------------------------------*/
+/* 背景設定 */
+body
+{
+}
+
+/* コンテンツ配置領域 */
+.hpb-layoutset-01 #hpb-title h2
+{
+    position: absolute;
+    top: 0px;
+    left: 235px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 665px;
+    height: 273px;
+    background-image : url(mainimg_3Dc.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.hpb-layoutset-02 h2
+{
+    background-image : url(titleBg_3Dc.png);
+    background-position: top right;
+    background-repeat: repeat-x;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    height: 45px;
+    padding-top: 15px;
+    text-align: left;
+    overflow: hidden;
+    line-height: 1.1em;
+}
+
+.hpb-layoutset-02 h2 span.ja
+{
+    font-size: 1em;
+    color: #ffffff;
+    padding-right: 0;
+    padding-left: 15px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+.hpb-layoutset-02 h2 span.en
+{
+    font-size: 0.8em;
+    color: #1F445E;
+    font-weight: normal;
+    padding-left: 15px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+/* ナビゲーション */
+#hpb-nav ul
+{
+    margin-top: -1px;
+    margin-right: auto;
+    margin-bottom: 1px;
+    margin-left: auto;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.hpb-layoutset-02 #hpb-nav ul
+{
+    margin-top: 34px;
+    margin-right: auto;
+    margin-bottom: 1px;
+    margin-left: auto;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#hpb-nav ul:after
+{
+    content: ".";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+#hpb-nav li
+{
+    display: block;
+    width: 235px;
+    background-image : url(menuBg_3Dc_02.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    float: left;
+    height: 45px;
+    overflow: hidden;
+    line-height: 50px;
+}
+
+#hpb-nav li#nav-access
+{
+    background-image : url(menuBg_3Dc_02_01.png);
+    height: 48px;
+}
+
+#hpb-nav li#nav-access a:hover
+{
+    background-image : url(menuBg_3Dc_02_01_on.png);
+    height: 48px;
+}
+
+#hpb-nav li#nav-access a:active
+{
+    background-image : url(menuBg_3Dc_02_01_on.png);
+    height: 48px;
+}
+
+#hpb-nav li a
+{
+    display: block;
+    text-align: center;
+}
+
+#hpb-nav li span.en
+{
+    display: none;
+}
+
+#hpb-nav li span.ja
+{
+    display: block;
+    text-align: left;
+    float: left;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#hpb-nav li span.en
+{
+    display: block;
+    text-align: left;
+    color: #ADEBF8;
+    font-size: 12px;
+    padding-top: 0px;
+    padding-left: 30px;
+}
+
+#hpb-nav a:link
+{
+    color: #666666;
+    text-decoration: none;
+}
+#hpb-nav a:visited
+{
+    color: #666666;
+    text-decoration: none;
+}
+#hpb-nav a:hover
+{
+    text-decoration: none;
+    background-image : url(menuBg_3Dc_02_on.png);
+    background-position: top left;
+    background-repeat: repeat-x;
+}
+#hpb-nav a:active
+{
+    text-decoration: none;
+    background-image : url(menuBg_3Dc_02_on.png);
+    background-position: top left;
+    background-repeat: repeat-x;
+}
+/*--------------------------------------------------------
+  共通パーツデザイン設定
+--------------------------------------------------------*/
+#banner
+{
+    width: 218px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #1F445E;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #1F445E;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #1F445E;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #1F445E;
+    background-color: #DFEAF2;
+}
+
+
+#shopinfo
+{
+    width: 220px;
+}
+
+#hpb-aside #shopinfo h3
+{
+    width: 220px;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 0px;
+    background-color: #FFFFFF;
+    color: #1F445E;
+    font-weight: bold;
+}
+
+#shopinfo
+{
+    margin-top: 20px;
+    color: #666666;
+    font-weight: bold;
+}
+
+

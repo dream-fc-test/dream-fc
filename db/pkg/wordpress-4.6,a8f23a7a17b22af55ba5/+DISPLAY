@@ -1,0 +1,25 @@
+<b>インストール先：</b>/home/dream-fc/www/u-15
+<b>設置URL：</b><a href="http://dream-fc.sakura.ne.jp/u-15/" target="_blank">http://dream-fc.sakura.ne.jp/u-15/</a>
+<b>管理画面URL：</b><a href="http://dream-fc.sakura.ne.jp/u-15/wp-admin/" target="_blank">http://dream-fc.sakura.ne.jp/u-15/wp-admin/</a>
+
+利用方法に関する情報は公式で提供されているドキュメントをご覧ください。
+
+<a href="http://wpdocs.sourceforge.jp/" target="_blank">WordPress Codex 日本語版</a>
+
+<table border="1"><tr>
+<td colspan="2"><b>WordPress 2.9.xからアップデートした場合の注意事項</b></td></tr>
+<tr><td valign="top">※</td>
+   <td>はじめにWordPressのデータベースをアップグレードする必要があります。<br />
+   <a href="http://dream-fc.sakura.ne.jp/u-15/wp-admin/" target="_blank"
+   >管理画面URL</a>へアクセスしてアップグレードを行って下さい。</td></tr>
+<tr><td valign="top">※</td>
+   <td>外観のDefaultテーマが更新されています。<br />
+   Defaultテーマをご利用の場合は、データベースのアップグレード後、
+   管理画面の「外観」メニューからテーマを選択し直して下さい。</td>
+</tr></table>
+※ 本機能を利用せずアップデートした場合、実際のプログラムと表示上の
+   バージョンに違いが生じます。
+※ アップデートの前に必ずインストールしたフォルダとデータベースの
+   バックアップを取得してください。
+※ アンインストールを実行しても、データベース上のコンテンツデータは残ります。
+   不要な場合、phpMyAdmin などを利用し削除してください。

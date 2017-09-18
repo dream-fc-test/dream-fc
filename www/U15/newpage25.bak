@@ -1,0 +1,194 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="GENERATOR" content="JustSystems Homepage Builder Version 16.0.1.0 for Windows">
+<title></title>
+<link rel="stylesheet" href="hpbparts.css" type="text/css" id="hpbparts">
+<link rel="stylesheet" href="container_1Ed_2c_left.css" type="text/css" id="hpbcontainer">
+<link rel="stylesheet" href="main_1Ed_2c.css" type="text/css" id="hpbmain">
+<link rel="stylesheet" href="user.css" type="text/css" id="hpbuser">
+</head>
+<body id="hpb-template-01-05d-02" class="hpb-layoutset-02">
+<div id="hpb-skip"><a href="#hpb-title">本文へスキップ</a></div>
+<!-- container -->
+<div id="hpb-container">
+  <!-- header -->
+  <div id="hpb-header">
+    <div id="hpb-headerMain">
+      <h1>DREAMは○○○○○○○○を専門とする○○○○○○○○会社です。</h1>
+    </div>
+    <div id="hpb-headerLogo"><a href="#">DREAM</a></div>
+    <div id="hpb-headerExtra1">
+      <p class="tel"><span>TEL. </span></p>
+      <p class="address">〒 </p>
+    </div>
+  </div>
+  <!-- header end --><!-- inner -->
+  <div id="hpb-inner">
+    <!-- wrapper -->
+    <div id="hpb-wrapper">
+      <!-- page title -->
+      <div id="hpb-title">
+        <h2><span class="ja">スケジュール</span><span class="en">SCHEDULE</span></h2>
+      </div>
+      <!-- page title end --><!-- main -->
+      <div id="hpb-main">
+        <div class="hpb-parts-cnt-01 hpb-parts-cnt-style clearfix">
+          <h3>練習日・場所</h3>
+          <h3 class="hpb-parts-hl-04 hpb-parts-hl-style">見出し</h3>
+          <div class="hpb-parts-cbox-01 hpb-parts-cbox-style clearfix">
+            <table border="1" width="648">
+              <tbody>
+                <tr>
+                  <td width="142" bgcolor="#f4eea6">&nbsp;曜日</td>
+                  <td width="108" bgcolor="#f4eea6">&nbsp;時間</td>
+                  <td width="214" bgcolor="#f4eea6">&nbsp;場所</td>
+                  <td width="74" bgcolor="#f4eea6">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="142" rowspan="2">月&nbsp;</td>
+                  <td width="108">19：00～21：00</td>
+                  <td width="214">&nbsp;箕面市立第2中学校</td>
+                  <td width="74">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>19：00～21：00</td>
+                  <td>豊中市立第14中学校（G）</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="142" rowspan="2">火&nbsp;</td>
+                  <td width="108">17：15～18：15</td>
+                  <td width="214">彩都西公園</td>
+                  <td width="74">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="108">19：00～21：00</td>
+                  <td width="214">箕面市立第2中学校（体育館）</td>
+                  <td width="74">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="142">水</td>
+                  <td width="108">19：00～21：00</td>
+                  <td width="214">箕面市立第五中学校（体育館）</td>
+                  <td width="74">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="142" rowspan="2">木&nbsp;</td>
+                  <td width="108">17：15～18：15</td>
+                  <td width="214">彩都西公園</td>
+                  <td width="74">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="108">19：00～21：00</td>
+                  <td width="214">箕面市立第二中学校（体育館）</td>
+                  <td width="74">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="142">金</td>
+                  <td width="108">16：00～18：00</td>
+                  <td width="214">西脇グランド</td>
+                  <td width="74">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="142">土（第1・第３）</td>
+                  <td width="108">&nbsp;9：00～13：00</td>
+                  <td width="214">箕面市立中小学校&nbsp;（G）</td>
+                  <td width="74">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="142">土（第2）</td>
+                  <td width="108">&nbsp;16：00～18：00</td>
+                  <td width="214">西脇（G）</td>
+                  <td width="74">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="142">土（&nbsp;第4.・5）</td>
+                  <td width="108">&nbsp;13：00～18：00</td>
+                  <td width="214">箕面市立中小学校（G）</td>
+                  <td width="74">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="142">&nbsp;</td>
+                  <td width="108">&nbsp;</td>
+                  <td width="214">&nbsp;</td>
+                  <td width="74">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="142">&nbsp;</td>
+                  <td width="108">&nbsp;</td>
+                  <td width="214">&nbsp;</td>
+                  <td width="74">&nbsp;</td>
+                </tr>
+              </tbody>
+            </table>
+            文章を入力してください。<br>
+          文章を入力してください。<br>
+          文章を入力してください。<br>
+          文章を入力してください。<br>
+          文章を入力してください。<br>
+          文章を入力してください。<br>
+          文章を入力してください。<br>
+          文章を入力してください。<br>
+          文章を入力してください。<br>
+          文章を入力してください。<br>
+          </div>
+          <div id="pagetop"><a href="#hpb-container">このページの先頭へ</a></div>
+        </div>
+      </div>
+      <!-- main end -->
+    </div>
+    <!-- wrapper end --><!-- navi -->
+    <div id="hpb-nav">
+      <h3 class="hpb-c-index">ナビゲーション</h3>
+      <ul>
+        <li id="nav-toppage"><a href="index.html"><span class="ja">トップページ</span><span class="en">TOP&nbsp;PAGE</span></a>
+        <li id="nav-concept"><a href="concept.html"><span class="ja">指導方針</span><span class="en">CONCEPT</span></a>
+        <li id="nav-service"><a href="service.html"><span class="ja">サービス／製品一覧</span><span class="en">SERVICE&amp;PRODUCTS</span></a>
+        <li id="nav-news"><a href="news.html"><span class="ja">新着情報・FAQ</span><span class="en">NEWS&amp;FAQ</span></a>
+        <li id="nav-company"><a href="company.html"><span class="ja">会社概要</span><span class="en">COMPANY</span></a>
+        <li id="nav-recruit"><a href="recruit.html"><span class="ja">採用情報</span><span class="en">RECRUIT</span></a>
+        <li id="nav-contact"><a href="contact.html"><span class="ja">お問い合わせ</span><span class="en">CONTACT&nbsp;US</span></a>
+        <li id="nav-contact"><a href="contact.html"><span class="ja">スケジュール</span><span class="en">CONTACT&nbsp;US</span></a>
+      </ul>
+    </div>
+    <!-- navi end --><!-- aside -->
+    <div id="hpb-aside">
+      <h3 class="hpb-c-index">バナースペース</h3>
+      <div id="banner">
+        <ul>
+          <li><a href="#" id="banner-service">サービス／製品一覧</a>
+          <li><a href="#" id="banner-recruit">採用情報</a>
+          <li><a href="#" id="banner-access">アクセス</a>
+        </ul>
+      </div>
+      <div id="companyinfo">
+        <h3>DREAM</h3>
+        <p>〒<br>
+        </p>
+        <p>TEL <br>
+        FAX </p>
+      </div>
+    </div>
+    <!-- aside end -->
+  </div>
+  <!-- inner end --><!-- footer -->
+  <div id="hpb-footer">
+    <div id="hpb-footerMain">
+      <p>copyright&copy;20XX&nbsp;DREAM U-15&nbsp;all&nbsp;rights&nbsp;reserved.</p>
+    </div>
+    <div id="hpb-footerExtra1">
+      <h3 class="hpb-c-index">サブナビゲーション</h3>
+      <ul>
+        <li><a href="#">プライバシーポリシー</a>
+        <li><a href="#">特定商取引法に関する記述</a>
+      </ul>
+    </div>
+  </div>
+  <!-- footer end -->
+</div>
+<!-- container end --></body>
+</html>

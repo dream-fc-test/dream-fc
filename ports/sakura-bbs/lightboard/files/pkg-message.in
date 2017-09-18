@@ -1,0 +1,18 @@
+<b>インストール先：</b>%%INDEXDIR%%
+<b>設置URL：</b><a href="http://%%DOMAIN%%/%%CGISUBDIR%%/light.cgi" target="_blank">http://%%DOMAIN%%/%%CGISUBDIR%%/light.cgi</a>
+<b>管理用メニュー：</b><a href="http://%%DOMAIN%%/%%CGISUBDIR%%/admin.cgi?mode=admin" target="_blank">http://%%DOMAIN%%/%%CGISUBDIR%%/admin.cgi</a>
+
+初めに管理パスワードの入力画面があらわれますのでパスワードを設定します。
+<font color="red">パスワードを設定せずにそのまま放置すると危険ですので、
+この処理は必ず忘れないように行ってください。</font>
+
+利用方法に関する情報は公式で提供されているドキュメントをご覧ください。
+
+<a href="http://www.kent-web.com/bbs/light.html" target="_blank">KENT WEB - LIGHT BOARD</a>
+
+※ 本機能を利用せずアップデートした場合、実際のプログラムと表示上の
+   バージョンに違いが生じます。
+※ アップデートの前に必ずインストールしたフォルダのバックアップを
+   取得してください。
+※ アンインストールを実行した場合、インストール先フォルダ以下の
+   ファイルは全削除されます。
