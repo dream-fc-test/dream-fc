@@ -1,5 +1,5 @@
 @charset "utf-8";
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, 
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form,
 fieldset, input, textarea, p, blockquote, th, td{
 	margin: 0;
 	padding: 0;
@@ -9,7 +9,7 @@ html{
     overflow-y: scroll;
 }
 h1, h2, h3, h4, h5, h6{
-    font-size: 100%; 
+    font-size: 100%;
     font-weight: normal;
 }
 ol, ul{
@@ -23,7 +23,7 @@ img {
 	height:auto;
 }
 table{
-    border-collapse: collapse; 
+    border-collapse: collapse;
     border-spacing:0;
 }
 caption, th{
@@ -44,7 +44,7 @@ b {
 }
 a:focus{
     outline:none;
-} 
+}
 
 #head {
 	width: 960px;
@@ -191,6 +191,7 @@ h3 {
 .info_p {
 	margin-bottom: 10px;
 	display: block;
+	padding-top: 10px;
 }
 #right h2 {
 	font-size: 14px;
