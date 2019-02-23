@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=EUC-JP">
-  <title>お問い合わせ | DREAM U-15 </title>
-  <meta name="Description" content="お問い合わせ" />
-  <meta name="Keywords" content="ホームページ,制作,大阪" />
+<title>���䤤��碌��λ</title>
+	<meta name="Description" content="���䤤��碌��λ" /> 
+	<meta name="Keywords" content="�ۡ���ڡ���,����,���" /> 
 	<meta http-equiv="Content-Style-Type" content="text/css" />
 <style type="text/css">
 <!--
@@ -145,20 +145,19 @@ h2 {
 <?php
 
 $to="ken-k@hcn.zaq.ne.jp";
-$sbj="お問い合わせフォーム";
+$sbj="���䤤��碌�ե�����";
 $text1=$_POST["text1"];
 $text2=$_POST["text2"];
 $text3=$_POST["text3"];
-$RadioGroup1=$_POST["RadioGroup1"];
+$textfield=$_POST["textfield"];
 $textarea=$_POST["textarea"];
 
 $hdr="content-Type: text/plain;charset=ISO-2022-JP";
-$text0="フォームよりお問い合わせです。
-\n\nお名前：$text1
-\n\n電話番号：$text2
-\n\nメールアドレス：$text3
-\n\nお問い合わせ項目：$RadioGroup1
-\n\n内容：$textarea";
+$text0="�ե������ꤪ�䤤��碌�Ǥ���
+\n\n��̾����$text1
+\n\n�����ֹ桧$text2
+\n\n�᡼�륢�ɥ쥹��$text3
+\n\n���ơ�$textarea";
 
 mb_language("ja");
 
@@ -167,7 +166,7 @@ if($_POST["text1"])
 	if(mb_send_mail($to,$sbj,$text0,$hdr))
 	print "";
 	else
-	  print "エラーにより送信に失敗した可能性がございます。\n";
+	print "���顼�ˤ�������˼��Ԥ�����ǽ�����������ޤ���\n";
 }
 
 ?>
@@ -176,35 +175,32 @@ if($_POST["text1"])
 </div>
 <hr />
 <div id="faq">
-  <h2>お問い合わせありがとうございます。</h2>
-  <p>以下の内容でお問い合わせを受け付けました。</p>
+  <h2>���䤤��碌���꤬�Ȥ��������ޤ���</h2>
+  <p>�ʲ������ƤǤ��䤤��碌������դ��ޤ�����</p>
   <table width="700" border="1" cellspacing="0" cellpadding="0">
     <tr>
-      <th width="237" bgcolor="#ECF0FB"><p>お名前</p></th>
-      <td width="457"><p><?php print $text1; ?></p></td>
-    </tr>
-    <tr>
-      <th bgcolor="#ECF0FB"><p>電話番号</p></th>
-      <td><p><?php print $text2; ?></p></td>
-    </tr>
-    <tr>
-      <th bgcolor="#ECF0FB"><p>メールアドレス</p></th>
-      <td><p><?php print $text3; ?></p></td>
-    </tr>
-    <tr>
-      <th bgcolor="#ECF0FB"><p>問い合わせ項目</p></th>
-      <td><p><?php print $RadioGroup1; ?></p></td>
-    </tr>
-    <tr>
-      <th bgcolor="#ECF0FB"><p>内容</p></th>
-      <td><p><?php print $textarea; ?></p></td>
-    </tr>
-  </table>
-  <p>&nbsp;</p>
+    <th width="237" bgcolor="#ECF0FB"><p>��̾��</p></th>
+    <td width="457"><p><?php print $text1; ?></p></td>
+  </tr>
+  <tr>
+    <th bgcolor="#ECF0FB"><p>�����ֹ�</p></th>
+    <td><p><?php print $text2; ?></p></td>
+  </tr>
+  <tr>
+    <th bgcolor="#ECF0FB"><p>�᡼�륢�ɥ쥹</p></th>
+    <td><p><?php print $text3; ?></p></td>
+  </tr>
+
+  <tr>
+    <th bgcolor="#ECF0FB"><p>����</p></th>
+    <td><p><?php print $textarea; ?></p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
 </div>
-<div id="plv">
-  <h2>Copyright(c)　DREAM-FC　All Rights Reserved.</h2>
+  <div id="plv">
+<h2>Copyright(c)��DREAM-FC��All Rights Reserved.</h2>
 </div>
 <hr />
 </body>
-</html>:
+</html>

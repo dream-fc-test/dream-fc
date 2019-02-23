@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
-<title>お問い合わせ | DREAM U-15 </title>
-	<meta name="Description" content="���䤤��碌" /> 
+<title>���䤤��碌</title>
+	<meta name="Description" content="���䤤��碌" /> 
 	<meta name="Keywords" content="" /> 
 	<meta http-equiv="Content-Style-Type" content="text/css" />
 <meta name="GENERATOR" content="JustSystems Homepage Builder Version 16.0.7.0 for Windows" />
@@ -41,7 +41,7 @@ address, caption, cite, code, dfn, em, strong, th, var{
     font-weight: normal;
 }
 body {
-	font-family: "�ҥ饮�γѥ� Pro W3", "Hiragino Kaku Gothic Pro", "�ᥤ�ꥪ", Meiryo, Osaka, "�ͣ� �Х����å�", "MS PGothic", sans-serif;
+	font-family: "�ҥ饮�γѥ� Pro W3", "Hiragino Kaku Gothic Pro", "�ᥤ�ꥪ", Meiryo, Osaka, "�ͣ� �Х����å�", "MS PGothic", sans-serif;
 	margin-top: 25px;
 	color: #555;
 	font-size: 13px;
@@ -167,98 +167,82 @@ input {
 </div>
 <hr />
 <div id="faq">
-  <p>体験、試合の申し込みは、下記のフォームにてお申し込みください。</p>
-  <p>折り返しご連絡いたします。</p>
+  <p>�θ������ο������ߤϡ������Υե�����ˤƤ��������ߤ���������</p>
+  <p>�ޤ��֤���Ϣ���������ޤ���</p>
   <p><br />
-    こちらからの返信や連絡がない場合、
-    お手数ですがTELまたはFAXにて
-    ご連絡をお願いします。</p>
+    �����餫����ֿ���Ϣ�����ʤ���硢
+    ������Ǥ���TEL�ޤ���FAX�ˤ�
+  ��Ϣ���򤪴ꤤ���ޤ���</p>
   <div class="tel_table">
     <table width="409">
       <tr>
         <td width="58">TEL</td>
         <td width="136">090-9610-2588</td>
-        <td width="199">（桑野）</td>
+        <td width="199">�ʷ����</td>
       </tr>
       <tr>
         <td>FAX</td>
         <td>072-724-2720</td>
-        <td>（桑野）</td>
+        <td>�ʷ����</td>
       </tr>
     </table>
   </div>
 <form action="inquiry2.php" method="POST">
     <table width="700" border="1" cellspacing="0" cellpadding="0">
   <tr>
-    <th width="216"><p>※ お名前</p></th>
+    <th width="216"><p>�� ��̾��</p></th>
     <td width="478"><p><span id="sprytextfield1">
       <label>
         <input name="text1" type="text" id="text1" size="60" />
       </label>
-      <span class="textfieldRequiredMsg"><br />お名前を入力してください。</span></span></p></td>
+      <span class="textfieldRequiredMsg"><br />��̾�������Ϥ��Ƥ���������</span></span></p></td>
   </tr>
   
   <tr>
-    <th><p>※ 電話番号</p></th>
+    <th><p>�� �����ֹ�</p></th>
     <td><p><span id="sprytextfield2">
       <label>
         <input name="text2" type="text" id="text2" size="60" />
       </label>
-      <span class="textfieldRequiredMsg"><br />電話番号を入力してください。</span></span></p></td>
+      <span class="textfieldRequiredMsg"><br />�����ֹ�����Ϥ��Ƥ���������</span></span></p></td>
   </tr>
   <tr>
-    <th><p>※ メールアドレス</p></th>
+    <th><p>�� �᡼�륢�ɥ쥹</p></th>
     <td><p><span id="sprytextfield3">
     <label>
       <input name="text3" type="text" id="text3" size="60" />
     </label>
-    <span class="textfieldRequiredMsg"><br />メールアドレスを入力してください。</span><span class="textfieldInvalidFormatMsg"><br />正しいメールアドレスを入力してください。</span></span></p></td>
+    <span class="textfieldRequiredMsg"><br />�᡼�륢�ɥ쥹�����Ϥ��Ƥ���������</span><span class="textfieldInvalidFormatMsg"><br />�������᡼�륢�ɥ쥹�����Ϥ��Ƥ���������</span></span></p></td>
   </tr>
   <tr>
-    <th><p>※ メールアドレス（確認用）</p></th>
+    <th><p>�� �᡼�륢�ɥ쥹�ʳ�ǧ�ѡ�</p></th>
     <td><p><span id="spryconfirm1">
       <label>
         <input name="text4" type="text" id="text4" size="60" />
       </label>
-      <span class="confirmRequiredMsg"><br />メールアドレスを入力してください。</span><span class="confirmInvalidMsg"><br />メールアドレスが一致しません。</span></span></p></td>
+      <span class="confirmRequiredMsg"><br />�᡼�륢�ɥ쥹�����Ϥ��Ƥ���������</span><span class="confirmInvalidMsg"><br />�᡼�륢�ɥ쥹�����פ��ޤ���</span></span></p></td>
   </tr>
-      <tr>
-        <th><p>問い合わせ項目</p></th>
-        <td><p><span id="spryradio2">
-
-            <label><input type="radio" name="RadioGroup1" value="体験申し込み" id="RadioGroup1_0" />
-            体験申し込み</label>
-            <label><input type="radio" name="RadioGroup1" value="試合申し込み" id="RadioGroup1_1" />
-            試合申し込み
-            </label>
-            <label><input type="radio" name="RadioGroup1" value="その他お問い合わせ" id="RadioGroup1_2" />
-            その他お問い合わせ
-            </label>
-            <br />
-            <span class="radioRequiredMsg">項目を選択してください。</span></span></p>
-        </td>
-      </tr>
-      <tr>
-        <th>
-          <p>内容</p>
-        </th>
-        <td><p>
-            <label>
-              <textarea name="textarea" id="textarea" cols="57" rows="8"></textarea>
-            </label>
-          </p></td>
-      </tr>
-      <tr>
-        <th><p>&nbsp;</p></th>
-        <td><p><input type="submit" value="送信"/></p></td>
-      </tr>
-    </table>
-</form>
+  <tr>
+      <th>
+      <p>����</p>
+      </th>
+      <td><p>
+      <label>
+        <textarea name="textarea" id="textarea" cols="57" rows="8"></textarea>
+      </label>
+    </p></td>
+  </tr>
+  <tr>
+    <th><p>&nbsp;</p></th>
+    <td><p><input type="submit" value="����"/></p></td>
+  </tr>
+</table>
+  </form>
 </div>
 <hr />
 
   <div id="footer">
-    <h2>Copyright(c)　DREAM-FC　All Rights Reserved.</h2>
+    <h2>Copyright(c)��DREAM-FC��All Rights Reserved.</h2>
 </div>
 <script type="text/javascript">
 <!--
