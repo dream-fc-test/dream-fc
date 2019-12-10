@@ -149,6 +149,7 @@ $sbj="お問い合わせフォーム";
 $text1=$_POST["text1"];
 $text2=$_POST["text2"];
 $text3=$_POST["text3"];
+$text3=$_POST["text3"];
 $RadioGroup1=$_POST["RadioGroup1"];
 $textarea=$_POST["textarea"];
 
